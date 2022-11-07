@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item
+            android:id="@+id/menuPinNote"
+            android:icon="@drawable/ic_pin_note"
+            android:title="PinNote"
+            app:showAsAction="ifRoom" />
+        <item
+            android:id="@+id/menuNoticeNote"
+            android:icon="@drawable/ic_notifications_note"
+            android:title="NotifyNote"
+            app:showAsAction="ifRoom"
+            />
+        <item
+            android:id="@+id/menuDeleteNote"
+            android:icon="@drawable/ic_delete_note"
+            android:title="DeleteNote"
+            app:showAsAction="ifRoom" />
+    </group>
+
+</menu>

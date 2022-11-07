@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "210222817274",
+    "project_id": "prm392-24073",
+    "storage_bucket": "prm392-24073.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:210222817274:android:0ad27738f895e7f4c34e43",
+        "android_client_info": {
+          "package_name": "com.example.prm_392_nho_ho_ban"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "210222817274-1d59n61svqlumo4p2tvt2m2ie81aejnj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHaP5Xn7d2D1s8GttypPKxwP176iY4z50"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "210222817274-1d59n61svqlumo4p2tvt2m2ie81aejnj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

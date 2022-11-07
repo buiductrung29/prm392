@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory app:title="Theme">
+        <ListPreference
+            app:defaultValue="DEFAULT"
+            android:entries="@array/theme_entries"
+            app:entryValues="@array/theme_values"
+            app:key="color_option"
+            app:title="Change Theme"
+            app:useSimpleSummaryProvider="true"
+            />
+    </PreferenceCategory>
+    <Preference
+        android:key="Ringtone"
+        android:summary="Choose your ringtone"
+        android:title="Ringtone Preference"/>
+
+</PreferenceScreen>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<group>
+        <item android:title="@string/draw"
+            android:id="@+id/itemDraw"
+            android:icon="@drawable/ic_baseline_draw_24"
+            >
+        </item>
+        <item android:title="@string/record"
+            android:id="@+id/itemRecord"
+            android:icon="@drawable/ic_baseline_mic_24">
+        </item>
+        <item android:title="@string/text"
+            android:id="@+id/itemText"
+            android:icon="@drawable/ic_baseline_text_fields_24">
+        </item>
+</group>
+</menu>

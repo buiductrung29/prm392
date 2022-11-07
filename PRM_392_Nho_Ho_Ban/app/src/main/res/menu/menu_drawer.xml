@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group>
+        <item android:title="@string/home"
+            android:id="@+id/itemHome"
+            android:icon="@drawable/ic_baseline_home_24"
+            >
+        </item>
+        <item android:title="@string/label_lich"
+            android:id="@+id/itemCalendar"
+            android:icon="@drawable/calendar_24"
+            >
+        </item>
+        <item android:title="Bin"
+            android:id="@+id/itemBin"
+            android:icon="@drawable/ic_bin"
+            >
+        </item>
+
+    </group>
+    <item android:title="@string/label_system">
+        <menu>
+            <item android:title="@string/label_cai_dat"
+                android:id="@+id/itemSetting"
+                android:icon="@drawable/ic_baseline_settings_24">
+            </item>
+            <item android:title="@string/label_account"
+                android:id="@+id/itemAccount"
+                android:icon="@drawable/ic_baseline_account_circle_24">
+            </item>
+            <item android:title="@string/label_thong_tin"
+                android:id="@+id/itemInformation"
+                android:icon="@drawable/ic_baseline_info_24">
+            </item>
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.LoginFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="417dp"
+        android:padding="30dp">
+
+
+        <EditText
+            android:id="@+id/username_input"
+            android:layout_width="250dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="4dp"
+            android:autofillHints=""
+            android:background="@drawable/button_primary"
+            android:hint="@string/hint_dang_nhap"
+            android:inputType="text"
+            android:padding="3dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="TextContrastCheck" />
+
+        <EditText
+            android:id="@+id/password_input"
+            android:layout_width="250dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_primary"
+            android:hint="@string/hint_password"
+            android:importantForAutofill="no"
+            android:inputType="textPassword"
+            android:padding="3dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/username_input"
+            tools:ignore="TextContrastCheck,DuplicateSpeakableTextCheck" />
+
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_width="115dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="32dp"
+            android:text="@string/login"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            app:backgroundTint="@null"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvForgotAdd"
+            tools:ignore="TextContrastCheck,TextContrastCheck" />
+
+        <Button
+            android:id="@+id/buttonRegister"
+            android:layout_width="115dp"
+            android:layout_height="56dp"
+            android:text="REGISTER"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            app:backgroundTint="@null"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/loginButton"
+            app:layout_constraintVertical_bias="0.388"
+            tools:ignore="TextContrastCheck,TextContrastCheck" />
+
+        <TextView
+            android:id="@+id/tvForgotAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_forgot_password"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.771"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/password_input" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

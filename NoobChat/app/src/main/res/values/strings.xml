@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">NoobChat</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="username_hint">Username</string>
+    <string name="re_password_hint">Confirm Password</string>
+    <string name="register_btn_hint">Register</string>
+    <string name="login_btn_hint">Login</string>
+    <string name="txt_menu_logout">Logout</string>
+    <string name="search_hint">Search</string>
+    <string name="seen">seen</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="title_activity_reset_password">ResetPasswordActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="theme_entries">
+        <item>DEFAULT THEME</item>
+        <item>BLACK THEME</item>
+        <item>RED THEME</item>
+        <item>GREEN THEME</item>
+        <item>PINK THEME</item>
+    </string-array>
+
+    <string-array name="theme_values">
+        <item>DEFAULT</item>
+        <item>BLACK</item>
+        <item>RED</item>
+        <item>GREEN</item>
+        <item>PINK</item>
+    </string-array>
+</resources>

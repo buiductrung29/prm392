@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Remember Me</string>
+    <string name="label_lich">Calendar</string>
+    <string name="label_ghi_chu">Notes</string>
+    <string name="label_hen">Promises</string>
+    <string name="label_ngay">Day</string>
+    <string name="label_thang">Month</string>
+    <string name="label_nam">Year</string>
+    <string name="label_sap_toi">Upcoming</string>
+    <string name="label_truoc_day">History</string>
+    <string name="label_thung_rac">Bin</string>
+    <string name="label_cai_dat">Setting</string>
+    <string name="label_thong_tin">Information</string>
+    <string name="label_dang_nhap">Login</string>
+    <string name="label_dang_ki">Register</string>
+    <string name="label_forgot_password">Forgot password?</string>
+
+    <string name="hint_dang_nhap">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="re_password">Re-password</string>
+    <string name="label_logout">Logout</string>
+    <string name="label_system">System</string>
+    <string name="label_account">Account</string>
+    <string name="label_storage">Storage</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="label_reset_password">Reset Password</string>
+    <string name="send_resetpassword_email">Send Email</string>
+    <string name="today">Today</string>
+    <string name="notes_and_promies">NOTES AND PROMISES</string>
+    <string name="draw">Draw</string>
+    <string name="record">Record</string>
+    <string name="text">Text</string>
+    <string name="today_note_and_promises">Today note and promises</string>
+    <string name="month_notes">Notes</string>
+    <string name="swipe_up_to_turn_off">SWIPE UP TO TURN OFF</string>
+    <string name="textview">TextView</string>
+    <string name="tap_to_delay">TAP TO DELAY</string>
+    <string name="delay">DELAY</string>
+    <string name="hold_delay">HOLD DELAY</string>
+    <string name="upcoming">Upcoming</string>
+    <string name="all">All</string>
+    <string name="today_s_notes_appear_here">Today\'s notes appear here</string>
+    <string name="all_notes_appear_here">All notes appear here</string>
+    <string name="upcoming_notes_appear_here">Upcoming notes appear here</string>
+    <string name="home">Home</string>
+    <string name="your_notes_appear_here">your notes appear here</string>
+    <string name="coming">Coming</string>
+    <string name="add_acount">Add Acount</string>
+    <string name="login">LOGIN</string>
+</resources>
